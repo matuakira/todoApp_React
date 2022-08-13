@@ -1,6 +1,7 @@
 import React from "react";
 
 export const CompleteTodos = (props) => {
+  // 完了todoリストとイベント関数をprospで受け取る。
   const { todos, onClickBack } = props;
   return (
     <div className="complete-area">

@@ -1,6 +1,7 @@
 import React from "react";
 
 export const IncompleteTodo = (props) => {
+  // 未完了todoリストとイベント関数をprospで受け取る。
   const { todos, onClickComplete, onClickDelete } = props;
 
   return (
