@@ -9,7 +9,7 @@ export const App = () => {
 
   const [completeTodos, setCompleteTodos] = useState([
     "ううううう",
-    "うっほい"
+    "ウッホイ"
   ]);
 
   /*
